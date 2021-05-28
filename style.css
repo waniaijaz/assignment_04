@@ -1,0 +1,48 @@
+
+.myDiv {
+  border: 5px outset red;
+  background-color: lightblue;    
+  text-align: center;
+  width:250px;
+  height: 370px;
+  float:left;
+  margin: 3rem;
+  padding-left: 2px;
+   padding-top: 2px;
+ 
+
+}
+body{
+    background-color:silver
+    
+}
+
+.headdev{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+
+}
+.head .button {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;}
+
+    .head .button:hover {background-color: #3e8e41}
+
+.head .button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.myDiv .p{
+    overflow: scroll;
+    white-space: nowrap;
+
+}
